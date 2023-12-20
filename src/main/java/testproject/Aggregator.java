@@ -9,9 +9,7 @@ class Aggregator {
      * @param value number to add to the sum
      */
     void addValue(double value) {
-        
-        // sum += value;
-        sum -= value;
+        sum += value;
     }
 
     /**
@@ -19,17 +17,13 @@ class Aggregator {
      * @return sum.
      */
     double getSum() {
-        
-        // return sum;
-        return sum + 100;
+        return sum;
     }
 
     /**
      * Reset the aggregated value
      */
     void reset() {
-        
-        // sum = 0;
-        sum = 1000;
+        sum = 0;
     }
 }
