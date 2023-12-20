@@ -1,4 +1,4 @@
 *~
 .gradle/
-!build/test-results/
-build/
+# !build/test-results/
+# build/
